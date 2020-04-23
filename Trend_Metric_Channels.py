@@ -6,7 +6,8 @@ import plotly.graph_objects as go
 import streamlit as st
 
 #df = pd.read_csv('YouTube.csv')
-url = 'https://github.com/Sardar6Khan/ADM-App-dep/raw/master/YouTube.csv'
+#url = 'https://github.com/Sardar6Khan/ADM-App-dep/raw/master/YouTube.csv'
+url = 'https://github.com/rakesh-choudhury/Dataset/raw/master/YouTube.csv'
 
 df = pd.read_csv(url,sep=",")
 
