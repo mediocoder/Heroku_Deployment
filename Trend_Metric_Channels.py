@@ -7,9 +7,9 @@ import streamlit as st
 
 #df = pd.read_csv('YouTube.csv')
 #url = 'https://github.com/Sardar6Khan/ADM-App-dep/raw/master/YouTube.csv'
-url = 'https://github.com/atulyasharma/admproject/raw/master/YouTube.csv'
+#url = 'https://github.com/atulyasharma/admproject/raw/master/YouTube.csv'
 
-df = pd.read_csv(url,sep=",")
+df = pd.read_csv('YouTube.gz',sep=",")
 
 
 selection = st.selectbox('Select the category', df.Category.unique())
